@@ -1,0 +1,4 @@
+include ../conf/app.conf.base
+#各个机房的差异配置,可以覆盖base中的配置
+#mongodb_host = mongo:732cc97b62e00d39@10.16.57.65:7901 
+key1 = value2

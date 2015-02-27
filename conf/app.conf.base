@@ -1,0 +1,24 @@
+########基础配置项##############
+#保存进程id的文件路径, 用于进程停止和重启
+app_pid_file = ./pid
+#日志文件根目录
+log_root = ../logs
+#日志level, 0:debug 1:access 2:warning 3:error
+log_level = 0
+#http请求监听端口
+http_port = 9360
+#http请求读超时和写超时ms
+http_timeout = 40000
+#是否打开pprof
+pprof_enable = true
+
+########mongodb配置项, 需要访问mongo, 请打开以下注释并修改##############
+#mongodb_timeout = 100
+#mongodb_db = quc_session
+#mongodb_col = userinfo_modify_record
+##cluster access mode, 0:Eventual, 1:Monotonic, 2:Strong
+#mongodb_mode = 1
+#mongodb_host = mongo:732cc97b62e00d39@10.16.57.65:7901 
+
+########业务配置项##############
+key1 = value1
