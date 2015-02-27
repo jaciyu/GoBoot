@@ -27,7 +27,7 @@
 
 访问mongo db说明：
     如果使用mongo需要当前的go path路径中有mgo模块,  mgo请参考http://labix.org/mgo
-为了防止因为依赖问题导致编译通不过，qgo中默认将mongo相关的代码和配置注释掉了， 如果确定要使用，可以打开conf/*, main.go,  src/lib/Mongo.go  
+为了防止因为依赖问题导致编译通不过，qgo中默认将mongo相关的代码和配置注释掉了， 如果确定要使用，可以打开conf/, main.go,  src/lib/Mongo.go  
 并打开被注释的相关代码和配置项
 
 # 使用方法
